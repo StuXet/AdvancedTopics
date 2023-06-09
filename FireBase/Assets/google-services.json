@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540999507045",
+    "project_id": "advancedtopics-d45e4",
+    "storage_bucket": "advancedtopics-d45e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540999507045:android:be53f03abfe8993f75fa8c",
+        "android_client_info": {
+          "package_name": "Advanced.Topics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540999507045-3i6odeo8t5u446oj3gmhipt545kbepfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDju5ongdzeJQo97yK_KueDz4JC2JZkp50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540999507045-3i6odeo8t5u446oj3gmhipt545kbepfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
