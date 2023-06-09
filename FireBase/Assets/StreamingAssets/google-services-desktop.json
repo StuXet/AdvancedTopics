@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "879549898176",
+    "project_id": "advanced-topics-6b3e0",
+    "storage_bucket": "advanced-topics-6b3e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879549898176:android:43720ca144e64b81cb7c25",
+        "android_client_info": {
+          "package_name": "Shark.AdvancedTopics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879549898176-1l39sbvgu4h2je8u917qg2lb75h3hsvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNh6v7BsS6UfOgZzHC63ogv_DBtT-sZEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879549898176-1l39sbvgu4h2je8u917qg2lb75h3hsvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
