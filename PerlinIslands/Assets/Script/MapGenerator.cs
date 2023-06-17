@@ -10,8 +10,8 @@ public class MapGenerator : MonoBehaviour
         Islands
     }
     public DrawMode drawMode = DrawMode.Noise;
-    public int mapWidth;
-    public int mapHeight;
+    int _mapWidth = 100;
+    int _mapHeight = 100;
     public float noiseScale;
     public int octaves;
     [Range(0, 1)]
@@ -27,12 +27,12 @@ public class MapGenerator : MonoBehaviour
 
     public void GenerateMap()
     {
-        float[,] noiseMap = Noise.GenerateMap(mapHeight, mapWidth, seed, noiseScale, octaves, persistance, lacunarity, offest);
+        float[,] noiseMap = Noise.GenerateMap(_mapHeight, _mapWidth, seed, noiseScale, octaves, persistance, lacunarity, offest);
 
-        Color[] colorMap = new Color[mapWidth * mapHeight];
-        for (int y = 0; y < mapHeight; y++)
+        Color[] colorMap = new Color[_mapWidth * _mapHeight];
+        for (int y = 0; y < _mapHeight; y++)
         {
-            for (int x = 0; x < mapWidth; x++)
+            for (int x = 0; x < _mapWidth; x++)
             {
                 float curHeight = noiseMap[x, y];
 
@@ -40,7 +40,7 @@ public class MapGenerator : MonoBehaviour
                 {
                     if (curHeight <= item.height)
                     {
-                        colorMap[y * mapWidth + x] = item.color;
+                        colorMap[y * _mapWidth + x] = item.color;
                         break;
                     }
 
@@ -53,14 +53,14 @@ public class MapGenerator : MonoBehaviour
         }
         else if (drawMode == DrawMode.Islands)
         {
-            mapDisplay.DrawTexture(TextureGenerator.TextureFromColorMap(colorMap, mapWidth, mapHeight));
+            mapDisplay.DrawTexture(TextureGenerator.TextureFromColorMap(colorMap, _mapWidth, _mapHeight));
         }
     }
 
     private void OnValidate()
     {
-        mapWidth = mapWidth < 1 ? 1 : mapWidth;
-        mapHeight = mapHeight < 1 ? 1 : mapHeight;
+        _mapWidth = _mapWidth < 1 ? 1 : _mapWidth;
+        _mapHeight = _mapHeight < 1 ? 1 : _mapHeight;
         lacunarity = lacunarity < 1 ? 1 : lacunarity;
         octaves = octaves < 0 ? 0 : octaves;
     }
