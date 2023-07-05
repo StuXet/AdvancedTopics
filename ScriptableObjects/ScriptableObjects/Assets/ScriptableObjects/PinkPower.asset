@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: PinkPower
   m_EditorClassIdentifier: 
+  ID: pink
   cardName: PinkPower
   description: Love Power Control
   artwork: {fileID: 21300000, guid: cdb4b3b09578f3048b494742b5d8d285, type: 3}

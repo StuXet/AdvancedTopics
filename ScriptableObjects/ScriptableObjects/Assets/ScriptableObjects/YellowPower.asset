@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: YellowPower
   m_EditorClassIdentifier: 
+  ID: yellow
   cardName: YellowPower
   description: Brain Power Control
   artwork: {fileID: 21300000, guid: ff894bfc1c24b8d468a809452c4dd236, type: 3}

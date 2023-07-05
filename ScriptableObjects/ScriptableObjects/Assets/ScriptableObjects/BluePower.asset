@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: BluePower
   m_EditorClassIdentifier: 
+  ID: blue
   cardName: BluePower
   description: Water Power Control
   artwork: {fileID: 21300000, guid: 8fc3821098e9a434aa982346f010cad0, type: 3}

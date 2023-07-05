@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: BlackPower
   m_EditorClassIdentifier: 
+  ID: black
   cardName: BlackPower
   description: Dark Matter Power Control
   artwork: {fileID: 21300000, guid: 842a4ee45a54b7f43aea56b907987ffe, type: 3}

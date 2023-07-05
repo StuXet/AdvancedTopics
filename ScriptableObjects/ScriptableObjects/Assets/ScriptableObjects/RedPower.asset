@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: RedPower
   m_EditorClassIdentifier: 
+  ID: red
   cardName: RedPower
   description: Blood Power Control
   artwork: {fileID: 21300000, guid: 73b8c71930a3d9f4cbfd09059441a76a, type: 3}

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: GoldPower
   m_EditorClassIdentifier: 
-  cardName: GreenPower
+  ID: gold
+  cardName: GoldPower
   description: Golden Blocks Power Control
   artwork: {fileID: 21300000, guid: d47c245014ffa9b42b155a1290fd988f, type: 3}
   manaCost: 4

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b034aaf7894d8143b9874bcf1e700c4, type: 3}
   m_Name: PurpelPower
   m_EditorClassIdentifier: 
+  ID: purple
   cardName: PurpelPower
   description: Posion Power Control
   artwork: {fileID: 21300000, guid: 87425a6bd02523b499564d3be2d72d52, type: 3}
